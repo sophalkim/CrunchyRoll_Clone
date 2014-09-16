@@ -7,6 +7,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.app.FragmentTransaction;
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBar.Tab;
 import android.support.v7.app.ActionBarActivity;
@@ -16,15 +17,42 @@ import android.view.ViewGroup;
 
 public class MainActivity2 extends ActionBarActivity implements ActionBar.TabListener {
 
+	SectionsPagerAdapter adapter;
+	ViewPager pager;
 	
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+		
+		final ActionBar actionBar = getSupportActionBar();
+		actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
+		
+		adapter = new SectionsPagerAdapter(getSupportFragmentManager());
+		pager = (ViewPager) findViewById(R.id.pager);
+		pager.setAdapter(adapter);
+		pager.setOnPageChangeListener(new ViewPager.SimpleOnPageChangeListener() {
+			@Override
+			public void onPageSelected(int position) {
+				actionBar.setSelectedNavigationItem(position);
+			}
+		});
+		
+		for (int i = 0; i < adapter.getCount(); i++) {
+			actionBar.addTab(actionBar.newTab()
+					 .setText(adapter.getPageTitle(i))
+					 .setTabListener(this));
+			
+		}
+	}
+	
+	@Override
+	public void onTabSelected(Tab tab, FragmentTransaction arg1) {
+		pager.setCurrentItem(tab.getPosition());
+	}
 	
 	@Override
 	public void onTabReselected(Tab arg0, FragmentTransaction arg1) {
-		
-	}
-
-	@Override
-	public void onTabSelected(Tab arg0, FragmentTransaction arg1) {
 		
 	}
 
