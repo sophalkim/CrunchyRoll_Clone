@@ -38,12 +38,13 @@ public class MainActivity2 extends ActionBarActivity implements ActionBar.TabLis
 			}
 		});
 		
-		for (int i = 0; i < adapter.getCount(); i++) {
-			actionBar.addTab(actionBar.newTab()
-					 .setText(adapter.getPageTitle(i))
-					 .setTabListener(this));
-			
-		}
+		actionBar.addTab(actionBar.newTab().setText("Cool").setTabListener(this));
+//		for (int i = 0; i < adapter.getCount(); i++) {
+//			actionBar.addTab(actionBar.newTab()
+//					 .setText(adapter.getPageTitle(i))
+//					 .setTabListener(this));
+//			
+//		}
 	}
 	
 	@Override
