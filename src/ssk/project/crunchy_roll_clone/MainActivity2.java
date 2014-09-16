@@ -69,7 +69,8 @@ public class MainActivity2 extends ActionBarActivity implements ActionBar.TabLis
 
 		@Override
 		public Fragment getItem(int position) {
-			return PlaceholderFragment.newInstance(position + 1);
+			ListViewFragment lvf = new ListViewFragment();
+			return lvf;
 		}
 
 		@Override
