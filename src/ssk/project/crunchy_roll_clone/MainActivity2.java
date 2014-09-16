@@ -38,7 +38,8 @@ public class MainActivity2 extends ActionBarActivity implements ActionBar.TabLis
 			}
 		});
 		
-		actionBar.addTab(actionBar.newTab().setText("Cool").setTabListener(this));
+		actionBar.addTab(actionBar.newTab().setText("Home").setTabListener(this));
+		actionBar.addTab(actionBar.newTab().setText("Queue").setTabListener(this));
 //		for (int i = 0; i < adapter.getCount(); i++) {
 //			actionBar.addTab(actionBar.newTab()
 //					 .setText(adapter.getPageTitle(i))
@@ -70,8 +71,13 @@ public class MainActivity2 extends ActionBarActivity implements ActionBar.TabLis
 
 		@Override
 		public Fragment getItem(int position) {
-			ListViewFragment lvf = new ListViewFragment();
-			return lvf;
+			if (position == 0) {
+				ListViewFragment lvf = new ListViewFragment();
+				return lvf;
+			} else {
+				QueueFragment qf = new QueueFragment();
+				return qf;
+			}
 		}
 
 		@Override
