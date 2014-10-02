@@ -18,7 +18,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e74edf68-e854-4cad-a757-0eaad97fe12b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/ssk/project/crunchy_roll_clone/CustomArrayAdapter2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/ssk/project/crunchy_roll_clone/ListViewFragment2.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CrunchyRoll_Clone.iws" />
@@ -738,6 +738,8 @@
       <list>
         <option value="$PROJECT_DIR$/app/src/main/java/ssk/project/crunchy_roll_clone/CustomArrayAdapter2.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ssk/project/crunchy_roll_clone/CustomArrayAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ssk/project/crunchy_roll_clone/ListViewFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ssk/project/crunchy_roll_clone/ListViewFragment2.java" />
       </list>
     </option>
   </component>
@@ -874,6 +876,10 @@
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="options.lastSelected" value="editor.preferences.import" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Android Application.app">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -1055,7 +1061,11 @@
       <created>1412275030546</created>
       <updated>1412275030546</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Practice the CustomerArrayAdapter">
+      <created>1412284944109</created>
+      <updated>1412284944109</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1108,7 +1118,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Converted to Gradle Build System" />
-    <option name="LAST_COMMIT_MESSAGE" value="Converted to Gradle Build System" />
+    <MESSAGE value="Practice the CustomerArrayAdapter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practice the CustomerArrayAdapter" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1185,14 +1196,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ssk/project/crunchy_roll_clone/ListViewFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
-          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ssk/project/crunchy_roll_clone/QueueFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
@@ -1216,6 +1219,24 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ssk/project/crunchy_roll_clone/ListViewFragment2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7336861" vertical-offset="234" max-vertical-offset="936">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ssk/project/crunchy_roll_clone/ListViewFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5873016" vertical-offset="291" max-vertical-offset="858">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
