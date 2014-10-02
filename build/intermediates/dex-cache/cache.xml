@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="C:\Documents and Settings\Billy Bob\Desktop\GitHub\CrunchyRoll_Clone1\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-cd41ef807caadb29c9df0131dee869d3723185ad.jar"
+        jar="C:\Program Files\Android\android-studio\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+    <item
+        dex="C:\Documents and Settings\Billy Bob\Desktop\GitHub\CrunchyRoll_Clone\app\build\intermediates\pre-dexed\debug\classes-f0d5d2bc9b7a9ed3589325b1f5d04696d69e701f.jar"
+        jar="C:\Documents and Settings\Billy Bob\Desktop\GitHub\CrunchyRoll_Clone\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28"/>
+    <item
+        dex="C:\Documents and Settings\Billy Bob\Desktop\GitHub\CrunchyRoll_Clone1\app\build\intermediates\pre-dexed\debug\classes-3fb19245220beca1bc7916101bacbcd15570eea9.jar"
+        jar="C:\Documents and Settings\Billy Bob\Desktop\GitHub\CrunchyRoll_Clone1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28"/>
+
+</pre-dex-items>
