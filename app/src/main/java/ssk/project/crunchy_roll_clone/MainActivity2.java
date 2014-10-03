@@ -18,7 +18,7 @@ import java.util.Locale;
 public class MainActivity2 extends ActionBarActivity implements ActionBar.TabListener {
 
 	SectionsPagerAdapter adapter;
-	ViewPager pager;
+	ViewPager pager;pR
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
